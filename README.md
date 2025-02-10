@@ -115,15 +115,3 @@ We appreciate all contributions! 🎉
 ## 📄 License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
-### ✅ Summary of Improvements:
-
-- **More structured explanations** for installation and usage.
-- **Clearer descriptions** of commands and their expected output.
-- **More details** on prerequisites (Node.js, GitHub CLI, authentication).
-- **Table format** for scripts to improve readability.
-- **Refined contributing section** to guide new contributors.
-
-This version should be clearer and more effective for a technical audience! 🚀 Let me know if you want any tweaks.
