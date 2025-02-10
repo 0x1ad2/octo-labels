@@ -1,0 +1,10 @@
+#root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "main";
+  height: 96vh;
+  width: 96vw;
+  scrollbar-width: none;
+  margin: 1em;
+}

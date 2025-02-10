@@ -1,0 +1,182 @@
+[
+  {
+    "name": "🐞 BUG",
+    "description": "Something isn't working",
+    "color": "B60205"
+  },
+  {
+    "name": "🚀 FEATURE",
+    "description": "New feature request",
+    "color": "1D76DB"
+  },
+  {
+    "name": "📚 DOCUMENTATION",
+    "description": "Documentation updates or fixes",
+    "color": "0075CA"
+  },
+  {
+    "name": "🔧 IMPROVEMENT",
+    "description": "Enhancement to an existing feature",
+    "color": "0052CC"
+  },
+  {
+    "name": "❓ QUESTION",
+    "description": "General inquiries or discussions",
+    "color": "D876E3"
+  },
+  {
+    "name": "🎨 REFACTOR",
+    "description": "Code cleanup without functionality change",
+    "color": "8E44AD"
+  },
+  {
+    "name": "🗑️ DEPRECATION",
+    "description": "Features planned for removal",
+    "color": "E67E22"
+  },
+  {
+    "name": "⚠️ SECURITY",
+    "description": "Security vulnerabilities",
+    "color": "D93F0B"
+  },
+  {
+    "name": "🚇 CI/CD",
+    "description": "Related to CI/CD pipelines",
+    "color": "0E8A16"
+  },
+  {
+    "name": "🏗️ BUILD",
+    "description": "Build system, dependencies, or config changes",
+    "color": "F9D0C4"
+  },
+  {
+    "name": "🧪 TESTS",
+    "description": "Testing-related issues or PRs",
+    "color": "E4E669"
+  },
+  {
+    "name": "🛠️ MAINTENANCE",
+    "description": "General upkeep and codebase health",
+    "color": "BFDADC"
+  },
+  {
+    "name": "⏳ PRIORITY: HIGH",
+    "description": "Important but not blocking",
+    "color": "FBCA04"
+  },
+  {
+    "name": "🔥 PRIORITY: CRITICAL",
+    "description": "Needs urgent attention",
+    "color": "FF0000"
+  },
+  {
+    "name": "💤 PRIORITY: LOW",
+    "description": "Can be delayed",
+    "color": "C2E0C6"
+  },
+  {
+    "name": "🚧 STATUS: IN PROGRESS",
+    "description": "Work in progress",
+    "color": "FF9B00"
+  },
+  {
+    "name": "✅ STATUS: READY FOR REVIEW",
+    "description": "Ready for feedback",
+    "color": "0E8A16"
+  },
+  {
+    "name": "🛑 STATUS: BLOCKED",
+    "description": "Waiting on something before progressing",
+    "color": "E11D21"
+  },
+  {
+    "name": "🕒 STATUS: PENDING",
+    "description": "Awaiting response or details",
+    "color": "C2E0C6"
+  },
+  {
+    "name": "🆕 NEW ISSUE",
+    "description": "Newly created issue",
+    "color": "5319E7"
+  },
+  {
+    "name": "📦 STATUS: DONE",
+    "description": "Completed tasks",
+    "color": "6F42C1"
+  },
+  {
+    "name": "🏷️ DUPLICATE",
+    "description": "Already reported",
+    "color": "CCCCCC"
+  },
+  {
+    "name": "❌ WONTFIX",
+    "description": "Not planned for resolution",
+    "color": "D4C5F9"
+  },
+  {
+    "name": "💡 GOOD FIRST ISSUE",
+    "description": "Ideal for newcomers",
+    "color": "7057FF"
+  },
+  {
+    "name": "🚸 HELP WANTED",
+    "description": "Needs contributor assistance",
+    "color": "008672"
+  },
+  {
+    "name": "🎭 UX/UI",
+    "description": "User experience or interface improvements",
+    "color": "BFDADC"
+  },
+  {
+    "name": "🌐 LOCALIZATION",
+    "description": "Translation & multi-language support",
+    "color": "1D76DB"
+  },
+  {
+    "name": "⚙️ CONFIG",
+    "description": "Configuration or environment changes",
+    "color": "5319E7"
+  },
+  {
+    "name": "🏴 ACCESSIBILITY",
+    "description": "Issues related to A11Y",
+    "color": "A2EEEF"
+  },
+  {
+    "name": "📌 META",
+    "description": "Repository-level changes",
+    "color": "BFDADC"
+  },
+  {
+    "name": "🚦 TRIAGE",
+    "description": "Needs initial review or categorization",
+    "color": "D4C5F9"
+  },
+  {
+    "name": "🤝 CONTRIBUTION",
+    "description": "Contribution guidelines, templates, etc.",
+    "color": "0E8A16"
+  },
+  {
+    "name": "🔖 RELEASE: MAJOR",
+    "description": "Major breaking changes",
+    "color": "C2E0C6"
+  },
+  {
+    "name": "📌 RELEASE: MINOR",
+    "description": "Backward-compatible improvements",
+    "color": "0E8A16"
+  },
+  {
+    "name": "🏷️ CHANGELOG",
+    "description": "Notable changes for documentation",
+    "color": "BFDADC"
+  },
+  {
+    "name": "🩹 RELEASE: PATCH",
+    "description": "Bug fixes only",
+    "color": "D4C5F9"
+  }
+]
