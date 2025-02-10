@@ -101,6 +101,64 @@ Before using OctoLabels, ensure you have:
 | `list`     | Display all labels in the repository.                                   |
 | `migrate ` | Clone labels from one repository to another.                            |
 
+## 🔖 Labels
+
+### Type Labels
+
+| NAME             | DESCRIPTION                                   | COLOR   |
+| ---------------- | --------------------------------------------- | ------- |
+| 🐞 BUG           | Something isn't working                       | #B60205 |
+| 🚀 FEATURE       | New feature request                           | #1D76DB |
+| 📚 DOCUMENTATION | Documentation updates or fixes                | #0075CA |
+| 🔧 IMPROVEMENT   | Enhancement to an existing feature            | #0052CC |
+| ❓ QUESTION      | General inquiries or discussions              | #D876E3 |
+| 🎨 REFACTOR      | Code cleanup without functionality change     | #8E44AD |
+| 🗑️ DEPRECATION   | Features planned for removal                  | #E67E22 |
+| ⚠️ SECURITY      | Security vulnerabilities                      | #D93F0B |
+| 🚇 CI/CD         | Related to CI/CD pipelines                    | #0E8A16 |
+| 🏗️ BUILD         | Build system, dependencies, or config changes | #F9D0C4 |
+| 🧪 TESTS         | Testing-related issues or PRs                 | #E4E669 |
+| 🛠️ MAINTENANCE   | General upkeep and codebase health            | #BFDADC |
+| 🎭 UX/UI         | User experience or interface improvements     | #BFDADC |
+| 🌐 LOCALIZATION  | Translation & multi-language support          | #1D76DB |
+| ⚙️ CONFIG        | Configuration or environment changes          | #5319E7 |
+| 🏴 ACCESSIBILITY | Issues related to A11Y                        | #A2EEEF |
+| 📌 META          | Repository-level changes                      | #BFDADC |
+| 🚦 TRIAGE        | Needs initial review or categorization        | #D4C5F9 |
+| 🤝 CONTRIBUTION  | Contribution guidelines, templates, etc.      | #0E8A16 |
+
+### Priority Labels
+
+| NAME                  | DESCRIPTION                | COLOR   |
+| --------------------- | -------------------------- | ------- |
+| 🔥 PRIORITY: CRITICAL | Needs urgent attention     | #FF0000 |
+| ⏳ PRIORITY: HIGH     | Important but not blocking | #FBCA04 |
+| 💤 PRIORITY: LOW      | Can be delayed             | #C2E0C6 |
+
+### Status Labels
+
+| NAME                        | DESCRIPTION                             | COLOR   |
+| --------------------------- | --------------------------------------- | ------- |
+| 🚧 STATUS: IN PROGRESS      | Work in progress                        | #FF9B00 |
+| ✅ STATUS: READY FOR REVIEW | Ready for feedback                      | #0E8A16 |
+| 🛑 STATUS: BLOCKED          | Waiting on something before progressing | #E11D21 |
+| 🕒 STATUS: PENDING          | Awaiting response or details            | #C2E0C6 |
+| 🆕 NEW ISSUE                | Newly created issue                     | #5319E7 |
+| 📦 STATUS: DONE             | Completed tasks                         | #6F42C1 |
+| 🏷️ DUPLICATE                | Already reported                        | #CCCCCC |
+| ❌ WONTFIX                  | Not planned for resolution              | #D4C5F9 |
+| 💡 GOOD FIRST ISSUE         | Ideal for newcomers                     | #7057FF |
+| 🚸 HELP WANTED              | Needs contributor assistance            | #008672 |
+
+### Release Labels
+
+| NAME              | DESCRIPTION                       | COLOR   |
+| ----------------- | --------------------------------- | ------- |
+| 🩹 RELEASE: PATCH | Bug fixes only                    | #D4C5F9 |
+| 📌 RELEASE: MINOR | Backward-compatible improvements  | #0E8A16 |
+| 🔖 RELEASE: MAJOR | Major breaking changes            | #C2E0C6 |
+| 🏷️ CHANGELOG      | Notable changes for documentation | #BFDADC |
+
 ## 🏆 Contributing
 
 Contributions are welcome! 🚀 To contribute:
