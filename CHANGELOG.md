@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/0x1ad2/octo-labels/compare/v1.2.0...v1.3.0) (2025-02-17)
+
+
+### Features
+
+* rename project to octo-labels and add CLI functionality ([0b01241](https://github.com/0x1ad2/octo-labels/commit/0b01241f6aaa83a2299b1ddd505eba5f082b8ca2))
+
 ## [1.2.0](https://github.com/0x1ad2/octo-labels/compare/v1.1.1...v1.2.0) (2025-02-17)
 
 
