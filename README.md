@@ -198,17 +198,6 @@ These commands allow you to manage GitHub labels efficiently using the CLI.
 | 🔖 RELEASE: MAJOR | Major breaking changes            | #C2E0C6 |
 | 🏷️ CHANGELOG      | Notable changes for documentation | #BFDADC |
 
-## 🏆 Contributing
-
-Contributions are welcome! 🚀 To contribute:
-
-1. **Fork the repository** on GitHub.
-2. **Create a new branch** for your feature or fix.
-3. **Commit your changes** with a clear message.
-4. **Submit a Pull Request (PR)** with a detailed description.
-
-We appreciate all contributions! 🎉
-
 ## 📄 License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
