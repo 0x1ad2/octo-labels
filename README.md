@@ -87,6 +87,45 @@ Before using OctoLabels, ensure you have:
    npm run migrate -- --source owner/source-repo --target owner/target-repo
    ```
 
+### 🖥️ Using the CLI
+
+If you prefer to use the CLI directly without cloning the repository, you can run the following commands using `npx`:
+
+> [!WARNING]  
+> All commands are executed within the repository context. Make sure that you are in the correct directory before running the commands.
+
+1.  Display help information:
+
+    ```sh
+    npx octo-labels --help
+    ```
+
+2.  Export GitHub labels to a JSON file:
+
+    ```sh
+    npx octo-labels export
+    ```
+
+3.  Add labels from a JSON file to a repository:
+
+    ```sh
+    npx octo-labels add
+    ```
+
+4.  Delete all labels in a repository:
+
+    ```sh
+    npx octo-labels delete
+    ```
+
+5.  Migrate labels from one repository to another:
+
+    ```sh
+    npx octo-labels migrate --source owner/source-repo --target owner/target-repo
+    ```
+
+These commands allow you to manage GitHub labels efficiently using the CLI.
+
 ## 📦 Available Scripts in `package.json`
 
 | Script     | Description                                                             |
