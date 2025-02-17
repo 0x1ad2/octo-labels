@@ -126,20 +126,6 @@ If you prefer to use the CLI directly without cloning the repository, you can ru
 
 These commands allow you to manage GitHub labels efficiently using the CLI.
 
-## 📦 Available Scripts in `package.json`
-
-| Script     | Description                                                             |
-| ---------- | ----------------------------------------------------------------------- |
-| `dev`      | Start the development server with hot reloading.                        |
-| `build`    | Build the application for production.                                   |
-| `preview`  | Preview the production build.                                           |
-| `export`   | Export GitHub labels to a JSON file.                                    |
-| `add`      | Apply labels from JSON to a repository.                                 |
-| `delete`   | Remove all labels from a repository.                                    |
-| `init`     | Initialize the project by exporting labels and starting the dev server. |
-| `list`     | Display all labels in the repository.                                   |
-| `migrate ` | Clone labels from one repository to another.                            |
-
 ## 🔖 Labels
 
 ### Type Labels
