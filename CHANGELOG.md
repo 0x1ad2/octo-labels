@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/0x1ad2/octo-labels/compare/v1.1.0...v1.1.1) (2025-02-17)
+
+
+### Bug Fixes
+
+* declare version & type on top and check for patch version ([3084399](https://github.com/0x1ad2/octo-labels/commit/30843999ebe35ec6215870a5ff13488f84e15c71))
+
 ## [1.1.0](https://github.com/0x1ad2/octo-labels/compare/v1.0.0...v1.1.0) (2025-02-17)
 
 
