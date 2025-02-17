@@ -24,7 +24,7 @@ if (args.includes("--help")) {
       --version  Show version number
       add        Apply labels from JSON to a repository
       delete     Remove all labels from a repository
-      open       Open Vite
+      open       Open dev server to compare labels
       export     Export GitHub labels to a JSON file
       init       Initialize the project by exporting labels and starting the dev server
       list       Display all labels in the repository
@@ -42,13 +42,13 @@ if (args.includes("--version")) {
 }
 
 const commandMap = {
-  add: "node scripts/add-github-labels.js",
-  delete: "node scripts/delete-github-labels.js",
-  open: "vite --open",
-  export: "node scripts/export-github-labels.js",
+  add: `node ${__dirname}/../scripts/add-github-labels.js`,
+  delete: `node ${__dirname}/../scripts/delete-github-labels.js`,
+  export: `node ${__dirname}/../scripts/export-github-labels.js`,
   init: "npm run list && npm run export && npm run open",
   list: "gh label list --limit 100",
-  migrate: "node scripts/migrate-github-labels.js",
+  migrate: `node ${__dirname}/../scripts/migrate-github-labels.js`,
+  open: "vite --open",
 };
 
 const command = args[0];
@@ -57,6 +57,7 @@ if (commandMap[command]) {
     const output = execSync(commandMap[command], { stdio: "inherit" });
     if (output) {
       console.log(output.toString());
+      process.exit(0);
     }
   } catch (error) {
     console.error(`Error: ${error.message}`);
