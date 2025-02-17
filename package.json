@@ -17,6 +17,9 @@
     "list": "gh label list --limit 100",
     "migrate": "node scripts/migrate-github-labels.js"
   },
+  "bin": {
+    "octo-labels": "./bin/cli.js"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
