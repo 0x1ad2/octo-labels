@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/0x1ad2/octo-labels/compare/v1.4.0...v1.5.0) (2025-02-17)
+
+
+### Features
+
+* enhance CLI help menu and add support for --filePath option in add command ([db460ef](https://github.com/0x1ad2/octo-labels/commit/db460ef4200cd07ae8c9ca9635a9bf8c2bc01f7d))
+
 ## [1.4.0](https://github.com/0x1ad2/octo-labels/compare/v1.3.3...v1.4.0) (2025-02-17)
 
 
