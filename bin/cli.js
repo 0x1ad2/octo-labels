@@ -23,6 +23,7 @@ if (args.includes("--help")) {
       --help     Show help
       --version  Show version number
       add        Apply labels from JSON to a repository
+        --filePath Path to the JSON file containing labels
       delete     Remove all labels from a repository
       open       Open dev server to compare labels
       export     Export GitHub labels to a JSON file
