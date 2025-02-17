@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/0x1ad2/octo-labels/compare/v1.3.3...v1.4.0) (2025-02-17)
+
+
+### Features
+
+* restructure label management and update file paths ([7bade0b](https://github.com/0x1ad2/octo-labels/commit/7bade0b205e0f53727f75a12f4f87622cc0654f0))
+
+
+### Bug Fixes
+
+* add --filePath option to CLI for specifying JSON label file ([25d8a48](https://github.com/0x1ad2/octo-labels/commit/25d8a48496ad440933a503e8adab3bdbb4eac9da))
+
 ## [1.3.3](https://github.com/0x1ad2/octo-labels/compare/v1.3.2...v1.3.3) (2025-02-17)
 
 
