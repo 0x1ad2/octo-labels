@@ -1,20 +1,25 @@
+#!/usr/bin/env node
+
 import { execSync } from "child_process";
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Parses command-line arguments and extracts the `--filePath` value.
- * @returns {string} The file path if provided, otherwise the default.
+ * @returns {string} The resolved file path if provided, otherwise the package default.
  */
 const parseArguments = () => {
   const args = process.argv.slice(2);
   const filePathIndex = args.indexOf("--filePath");
 
   if (filePathIndex !== -1 && args[filePathIndex + 1]) {
-    return args[filePathIndex + 1];
+    return path.resolve(args[filePathIndex + 1]);
   }
 
-  return "data/default-github-labels.json";
+  return path.resolve(__dirname, "../data/default-github-labels.json");
 };
 
 /**
@@ -34,18 +39,16 @@ const runCommand = (command) => {
  * @param {string} filePath - Path to the JSON file containing labels.
  */
 const createLabelsFromJson = (filePath) => {
-  const resolvedPath = path.resolve(filePath);
-
-  if (!fs.existsSync(resolvedPath)) {
-    console.error(`❌ Labels file not found: ${resolvedPath}`);
+  if (!fs.existsSync(filePath)) {
+    console.error(`❌ Labels file not found: ${filePath}`);
     process.exit(1);
   }
 
   try {
-    const labels = JSON.parse(fs.readFileSync(resolvedPath, "utf8"));
+    const labels = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
     if (!Array.isArray(labels)) {
-      console.error(`❌ Invalid JSON format: ${resolvedPath}`);
+      console.error(`❌ Invalid JSON format: ${filePath}`);
       process.exit(1);
     }
 
@@ -58,7 +61,7 @@ const createLabelsFromJson = (filePath) => {
 
     console.log(`✅ All labels processed successfully.`);
   } catch (error) {
-    console.error(`❌ Error reading JSON file: ${resolvedPath}`, error.message);
+    console.error(`❌ Error reading JSON file: ${filePath}`, error.message);
     process.exit(1);
   }
 };
@@ -68,9 +71,8 @@ const filePath = parseArguments();
 console.log(`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 | 🤖 EXECUTING SCRIPT: add-github-labels   |
-| 📂 Using labels file: ${filePath}        |
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+📂 Using labels file: ${filePath}
 `);
 
 createLabelsFromJson(filePath);
-console.log("");

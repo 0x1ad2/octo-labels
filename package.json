@@ -9,12 +9,12 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "add": "node scripts/add-github-labels.js",
-    "delete": "node scripts/delete-github-labels.js",
     "open": "vite --open",
-    "export": "node scripts/export-github-labels.js",
     "init": "npm run list && npm run export && npm run open",
     "list": "gh label list --limit 100",
+    "add": "node scripts/add-github-labels.js",
+    "delete": "node scripts/delete-github-labels.js",
+    "export": "node scripts/export-github-labels.js",
     "migrate": "node scripts/migrate-github-labels.js"
   },
   "bin": {
