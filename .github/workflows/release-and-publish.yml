@@ -7,12 +7,12 @@ permissions:
   contents: write
   pull-requests: write
 
+name: 🚀 Release & Publish
 #-----------------------------------------------------------#
 # DESCRIPTION: Checkout the repository, generate new semver #
 # Open a PR, on merge, create a new release, tag it, and    #
 # publish to npm.                                           #
 #-----------------------------------------------------------#
-name: 🚀 Release
 jobs:
   release:
     runs-on: ubuntu-latest
