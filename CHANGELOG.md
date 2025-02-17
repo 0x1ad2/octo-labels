@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/0x1ad2/octo-labels/compare/v1.3.1...v1.3.2) (2025-02-17)
+
+
+### Bug Fixes
+
+* update Node.js version in release workflow to 23 ([4a42f54](https://github.com/0x1ad2/octo-labels/commit/4a42f54585e47e0ad09e57f2edfbf713b829dfe4))
+
 ## [1.3.1](https://github.com/0x1ad2/octo-labels/compare/v1.3.0...v1.3.1) (2025-02-17)
 
 
