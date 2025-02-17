@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/0x1ad2/octo-labels/compare/v1.3.0...v1.3.1) (2025-02-17)
+
+
+### Bug Fixes
+
+* remove available scripts section from README ([d406493](https://github.com/0x1ad2/octo-labels/commit/d40649325dbb1d1989e4b297da5414561129a86f))
+* remove contributing section from README ([12493f7](https://github.com/0x1ad2/octo-labels/commit/12493f7f219f1c0d22fc758806816284b74126d3))
+
 ## [1.3.0](https://github.com/0x1ad2/octo-labels/compare/v1.2.0...v1.3.0) (2025-02-17)
 
 
