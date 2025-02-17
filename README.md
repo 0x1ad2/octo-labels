@@ -27,7 +27,7 @@
 │   ├── 🚀 add-github-labels.js     # Adds labels from JSON to GitHub
 │   ├── 🚀 delete-github-labels.js  # Deletes all labels in a repository
 │   ├── 🚀 migrate-github-labels.js # Migrates labels from <owner>/<source-repo> to <owner>/<target-repo>
-│   ├── 📂 data/                    # JSON files storing label sets
+├── 📂 data/                    # JSON files storing label sets
 ├── 📄 package.json                 # Project metadata & available scripts
 ```
 
@@ -78,7 +78,7 @@ Before using OctoLabels, ensure you have:
 6. Add the updated labels:
 
    ```sh
-   npm run add
+   npm run add -- --filePath path/to/your-labels.json
    ```
 
 7. Migrate labels from one repository to another:
@@ -109,7 +109,7 @@ If you prefer to use the CLI directly without cloning the repository, you can ru
 3.  Add labels from a JSON file to a repository:
 
     ```sh
-    npx octo-labels add
+    npx octo-labels add --filePath path/to/your-labels.json
     ```
 
 4.  Delete all labels in a repository:

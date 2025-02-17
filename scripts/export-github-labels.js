@@ -45,5 +45,5 @@ const exportLabels = (outputFile) => {
   console.log(`✅ Labels exported to: ${outputFile}`);
 };
 
-exportLabels("scripts/data/current-github-labels.json");
+exportLabels("data/current-github-labels.json");
 console.log("");

@@ -10,10 +10,8 @@ function App() {
 
   const loadJsonFiles = async () => {
     try {
-      const currentResponse = await fetch(
-        "scripts/data/current-github-labels.json"
-      );
-      const newResponse = await fetch("scripts/data/new-github-labels.json");
+      const currentResponse = await fetch("data/current-github-labels.json");
+      const newResponse = await fetch("data/new-github-labels.json");
 
       if (!currentResponse.ok || !newResponse.ok) {
         throw new Error("Failed to load JSON files.");
