@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/0x1ad2/octo-labels/compare/v1.3.2...v1.3.3) (2025-02-17)
+
+
+### Bug Fixes
+
+* update CLI command descriptions and paths for scripts ([a541b6d](https://github.com/0x1ad2/octo-labels/commit/a541b6dc82e7f92fc847683bf894033232765b56))
+
 ## [1.3.2](https://github.com/0x1ad2/octo-labels/compare/v1.3.1...v1.3.2) (2025-02-17)
 
 
