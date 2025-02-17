@@ -1,8 +1,10 @@
 # 🐙🔖 OctoLabels - GitHub Label Management Tool
 
+[![🚀 Release & Publish](https://github.com/0x1ad2/octo-labels/actions/workflows/release-and-publish.yml/badge.svg)](https://github.com/0x1ad2/octo-labels/actions/workflows/release-and-publish.yml)
+
 **OctoLabels** is a **React-based application** built with **TypeScript** and **Vite**, designed to streamline **GitHub label management**. It provides an intuitive **UI for visual label comparison** and includes **CLI scripts** to automate label operations, making it an efficient solution for managing labels across repositories.
 
-## 🚀 Features
+## 🔑 Features
 
 - 🖥️ **React UI for Label Comparison**  
   Utilize `react-json-view-compare` to visually **compare label sets** and track differences between repositories.
